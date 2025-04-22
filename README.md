@@ -8,7 +8,7 @@ Développement par ANTON NELCON Steve.
 🗺️ L'ARTÉFACT PERDU
 
     Un jeu d'aventure textuel en Swift, où l'on explore des labyrinthes mystérieux à la recherche d’un artefact ancien. 🧭
-    
+
   🚀 Lancement : Développé en Swift avec Foundation
 
 🎮 Présentation
@@ -32,7 +32,7 @@ Vous êtes un aventurier issu d’un village reculé. On vous a confié une miss
     D	 : Aller à droite (→)
     Q	 : Quitter le jeu
     O	 : Ouvrir une porte devant soi
-    H:  Commande pour aide 
+    H:  Commande pour aide
 
 🧩 Mécaniques de jeu
 
@@ -133,6 +133,4 @@ Chaque salle possède un thème unique :
     Fichier principal :ProjetIOS.swift (pour exécuter :  swift Examples/ProjetIOS.swift)
     Fichier : hello_world.swift : fichier explication du jeu
     Fichier  variable_swift : classes
-    Fichier Json : également inclus 
-
-
+    Fichier Json : également inclus
