@@ -1,0 +1,15 @@
+{
+  "name": "Swift Development Environment",
+  "image": "swift:5.9-jammy",
+  "runArgs": [
+    "--network=host"
+  ],
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}

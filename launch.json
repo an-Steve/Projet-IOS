@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug Current Swift File",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Compile Current Swift File"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug Swift Package",
+      "program": "${workspaceFolder}/.build/debug/${workspaceFolderBasename}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Swift Package: Build"
+    }
+  ]
+}

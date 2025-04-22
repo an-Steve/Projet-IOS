@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Current Swift File",
+      "type": "shell",
+      "command": "swift ${file}",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Compile Current Swift File",
+      "type": "shell",
+      "command": "swiftc ${file} -o ${fileDirname}/${fileBasenameNoExtension}",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Swift Package",
+      "type": "shell",
+      "command": "if [ -f \"Package.swift\" ]; then swift run; else echo \"Not a Swift package directory (no Package.swift found)\"; fi",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Swift Package",
+      "type": "shell",
+      "command": "if [ -f \"Package.swift\" ]; then swift build; else echo \"Not a Swift package directory (no Package.swift found)\"; fi",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
