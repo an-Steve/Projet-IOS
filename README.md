@@ -11,6 +11,13 @@ Développement par ANTON NELCON Steve.
 
   🚀 Lancement : Développé en Swift avec Foundation
 
+  📂 Organisation du code
+
+    Fichier principal :ProjetIOS.swift (pour exécuter :  swift Examples/ProjetIOS.swift)
+    Fichier : hello_world.swift : fichier explication du jeu
+    Fichier  variable_swift : classes
+    Fichier Json : également inclus
+
 🎮 Présentation
 
 L'Artéfact Perdu est un jeu d'aventure dans lequel vous incarnez un aventurier explorant des salles truffées de pièges, d’ennemis et d’énigmes. Votre mission : retrouver un artefact caché et survivre aux nombreux dangers du donjon.
@@ -126,11 +133,3 @@ Chaque salle possède un thème unique :
 
     ❌ Mauvais numéro d'énigme (1 à 3)
     → Dans tous les cas, un message d’erreur s’affiche et une nouvelle tentative est proposée.
-
-
-📂 Organisation du code
-
-    Fichier principal :ProjetIOS.swift (pour exécuter :  swift Examples/ProjetIOS.swift)
-    Fichier : hello_world.swift : fichier explication du jeu
-    Fichier  variable_swift : classes
-    Fichier Json : également inclus
