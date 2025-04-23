@@ -111,7 +111,7 @@ Chaque salle possède un thème unique :
 
     Niveau 2 : grille 15x15
 
-    Niveau 3 : feu au lieu des bombes
+    Niveau 3 : Bombes au lieu du feu
 
     Niveau 4 : apparition de fantômes 👻
 
